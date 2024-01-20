@@ -13,3 +13,17 @@ A simple Telegram bot that allows users to perform transaction scans on the Ethe
 - [requests](https://pypi.org/project/requests/)
 - [python-telegram-bot](https://pypi.org/project/python-telegram-bot/)
 
+## Install Dependencies: 
+pip install -r requirements.txt
+
+## Add your token (Line 59)
+Make sure to replace "YOUR_BOT_TOKEN" with the actual token provided by BotFather.
+
+## Running Bot:
+python main.py
+
+## On Telegram:
+Open Telegram and start using the bot with the /scan command:
+
+## Command Bot Telegram:
+/scan <address> <transaction_count>
